@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- csslink -->
+    <link rel="stylesheet" href="myartgirlgallery.css">
+    <link rel="stylesheet" href="MyAnimeGirlGallery.css">
+    <!-- imagehoverlink -->
+    <title>Document</title>
+    <!-- googlefontlink -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- socialmedialink w3school-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- boxiconlink -->
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    
+</head>
+<body>
+    <!-- topNavBar div and script -->
+    <div class="topnav" id="myTopnav">
+        <a href="#headerContainer" class="active">Home</a>
+        <a href="#main">Content</a>
+        <a href="#contactMeContainer">Contact</a>
+        <a href="#contactMeContainer">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+      <!-- topNavBar div and script -->
+
+      <!-- scrollBackToTop button -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bx-up-arrow-circle'></i></button>
+      <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+      <!-- scrollBackToTop button -->
+
+    <!-- initial page open section header section -->
+    <div class="headerContainer" id="headerContainer">
+        <img class="headerImage" src="https://wallpaper.dog/large/20544984.jpg" alt="">
+        <div class="headerAndAuthorDescription">
+            <h1 class="headerOfGallery">Art Gallery</h1>
+            <p class="presented">Presented By....</p>
+            <p class="author"><strong><a class="authorWebsite" target="_blank" href="https://thureinkyawhoe.w3spaces.com">Thurein Kyawhoe</a></strong></p>
+        </div>
+
+    </div>
+    <!-- initial page open section header section -->
+
+    <!-- oneSection of art collection -->
+    <div class="OneArtSection">
+        <div class="catagoriesOfArt bgImageOfArtCategories1">
+        Anime Girl Gallery
+    </div>
+    <!-- Gallery show case -->
+    <main id="main" class="main">
+            <div class="eachArtContainer">
+                <!-- imagehover` -->
+                <div class="container">
+                    <img class="eachArtImage" src="https://i.pinimg.com/564x/8f/8c/ff/8f8cff71c35bc7f1252354a7351dae32.jpg" alt="">
+                      <div class="overlay">
+                            <div class="text">
+                                <h2>Hello World</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                            </div>
+                        </div>
+                </div>
+                <!-- imagehover close -->
+            </div>
+            <div class="eachArtContainer">
+               <!-- imagehover` -->
+                <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/65/84/37/658437d9bb9676220eafe6f3a366e076.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+                </div>
+        <!-- imagehover close -->
+                
+            </div>
+            <div class="eachArtContainer">
+                <!-- imagehover` -->
+                <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/d5/05/17/d50517803aea91a1e5dae1c508c34771.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+                </div>
+                <!-- imagehover close -->
+                
+            </div>
+            <div class="eachArtContainer">
+                <!-- imagehover` -->
+                <div class="container">
+                    <img class="eachArtImage" src="https://i.pinimg.com/564x/95/7e/e6/957ee663a25b099a62e12f1fb6790c54.jpg" alt="">
+                    <div class="overlay">
+                        <div class="text">
+                            <h2>Hello World</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- imagehover close -->
+            </div>
+            <div class="eachArtContainer">
+                <!-- imagehover` -->
+                <div class="container">
+                    <img class="eachArtImage" src="https://i.pinimg.com/236x/5f/9f/67/5f9f67554c9b9b05ad1e8828fa113cd1.jpg" alt="">
+                    <div class="overlay">
+                        <div class="text">
+                            <h2>Hello World</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- imagehover close -->
+                
+            </div>
+            <div class="eachArtContainer">
+                <!-- imagehover` -->
+                <div class="container">
+                    <img class="eachArtImage" src="https://i.pinimg.com/564x/f8/00/57/f8005701d76df05ac657aaab18261858.jpg" alt="">
+                    <div class="overlay">
+                        <div class="text">
+                            <h2>Hello World</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- imagehover close -->
+                
+            </div>
+
+        <!-- Each art show section -->
+    </main>
+    </div>
+    <!-- oneSection of art collection -->
+
+    <!-- oneSection of art collection -->
+    <div class="OneArtSection">
+        <div class="catagoriesOfArt bgImageOfArtCategories2">
+        Anime Girl Gallery
+    </div>   
+    <main id="main" class="main">
+        <div class="eachArtContainer">
+            <!-- imagehover` -->
+            <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/b7/10/4a/b7104a8ab2cf318edf57acac1b221222.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- imagehover close -->
+        </div>
+        <di class="eachArtContainer">
+            <!-- imagehover` -->
+            <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/43/e0/10/43e010a4a6f0c729494e19dd9647ce00.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- imagehover close -->
+            
+        </di>
+        <div class="eachArtContainer">
+            <!-- imagehover` -->
+            <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/65/95/fc/6595fcbf072c8ca579e583e7c8ca0046.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- imagehover close -->
+            
+        </div>
+        <div class="eachArtContainer">
+            <!-- imagehover` -->
+            <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/8a/f1/73/8af173685f3ea304b1cd83d35362007f.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- imagehover close -->
+            
+        </div>
+        <div class="eachArtContainer">
+            <!-- imagehover` -->
+            <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/d0/71/86/d0718609f8ad63e3e14e2e277632df88.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+                </div>
+            <!-- imagehover close -->
+            
+        </div>
+        <div class="eachArtContainer">
+            <!-- imagehover` -->
+            <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/e9/5c/ee/e95ceeb4fa08ac5e9f8813ef3f0dc5ce.jpg" alt="">
+                  <div class="overlay">
+                        <div class="text">
+                            <h2>Hello World</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                        </div>
+                    </div>
+            </div>
+            <!-- imagehover close -->
+        </div>
+    </main>
+    </div>
+    <!-- oneSection of art collection -->
+
+    <!-- oneSection of art collection -->
+    <div class="OneArtSection">
+        <div class="catagoriesOfArt bgImageOfArtCategories3">
+        Anime Girl Gallery
+    </div>
+    <main id="main" class="main">
+        <div class="eachArtContainer">
+            <!-- imagehover` -->
+             <div class="container">
+             <img class="eachArtImage" src="https://i.pinimg.com/564x/b0/de/fb/b0defb8481a4b091649f35ae114a3928.jpg" alt="">
+             <div class="overlay">
+                 <div class="text">
+                     <h2>Hello World</h2>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                 </div>
+             </div>
+             </div>
+     <!-- imagehover close -->
+             
+         </div>
+         <div class="eachArtContainer">
+             <!-- imagehover` -->
+             <div class="container">
+             <img class="eachArtImage" src="https://i.pinimg.com/564x/18/33/b4/1833b410f9dafeba6df9cae811a84404.jpg" alt="">
+             <div class="overlay">
+                 <div class="text">
+                     <h2>Hello World</h2>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                 </div>
+             </div>
+             </div>
+             <!-- imagehover close -->
+             
+         </div>
+         <div class="eachArtContainer">
+             <!-- imagehover` -->
+             <div class="container">
+                 <img class="eachArtImage" src="https://i.pinimg.com/564x/60/7c/72/607c72a454084dea9d21864b0f5003cb.jpg" alt="">
+                 <div class="overlay">
+                     <div class="text">
+                         <h2>Hello World</h2>
+                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                     </div>
+                 </div>
+             </div>
+             <!-- imagehover close -->
+         </div>
+         <div class="eachArtContainer">
+             <!-- imagehover` -->
+             <div class="container">
+                 <img class="eachArtImage" src="https://i.pinimg.com/564x/52/1a/13/521a133b00b2f0ca006d265dbc3b1d83.jpg" alt="">
+                 <div class="overlay">
+                     <div class="text">
+                         <h2>Hello World</h2>
+                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                     </div>
+                 </div>
+             </div>
+             <!-- imagehover close -->
+             
+         </div>
+         <div class="eachArtContainer">
+             <!-- imagehover` -->
+             <div class="container">
+                 <img class="eachArtImage" src="https://i.pinimg.com/564x/59/29/07/592907e1e56673053790ec7e3ef32a5d.jpg" alt="">
+                 <div class="overlay">
+                     <div class="text">
+                         <h2>Hello World</h2>
+                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                     </div>
+                 </div>
+             </div>
+             <!-- imagehover close -->
+             
+         </div>
+         <div class="eachArtContainer">
+             <!-- imagehover` -->
+             <div class="container">
+                 <img class="eachArtImage" src="https://i.pinimg.com/750x/96/a9/2a/96a92ad3002d15403b7415e53e1cd2f7.jpg" alt="">
+                 <div class="overlay">
+                     <div class="text">
+                         <h2>Hello World</h2>
+                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                     </div>
+                 </div>
+             </div>
+             <!-- imagehover close -->
+         </div>
+    </main>
+    </div>
+    <!-- oneSection of art collection -->
+
+     
+    <!-- oneSection of art collection -->
+    <div class="OneArtSection">
+        <div class="catagoriesOfArt bgImageOfArtCategories4">
+        Anime Girl Gallery
+    </div>
+    <main id="main" class="main">
+        <di class="eachArtContainer">
+            <!-- imagehover` -->
+            <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/1f/fc/13/1ffc1341107c067a0d6afb05a8722b46.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- imagehover close -->
+            
+        </di>
+        <div class="eachArtContainer">
+            <!-- imagehover` -->
+            <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/72/a6/24/72a62423cc464fb2151e5759e01f80e9.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- imagehover close -->
+            
+        </div>
+        <div class="eachArtContainer">
+            <!-- imagehover` -->
+            <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/a5/a0/8b/a5a08bc0120d0da6185deb52b6a8dd39.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- imagehover close -->
+            
+        </div>
+        <div class="eachArtContainer">
+            <!-- imagehover` -->
+            <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/32/c7/b8/32c7b822d6f243b5929740fed45ca1f9.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+                </div>
+            <!-- imagehover close -->
+            
+        </div>
+        <di class="eachArtContainer">
+            <!-- imagehover` -->
+            <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/736x/cd/f9/8a/cdf98aa02d183429bc1f10649866fe33.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- imagehover close -->
+            
+        </di>
+        <div class="eachArtContainer">
+            <!-- imagehover` -->
+            <div class="container">
+                <img class="eachArtImage" src="https://i.pinimg.com/564x/4d/0f/57/4d0f5730aa9a58e86a79681cbf021dcc.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h2>Hello World</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vitae eligendi quidem, ex officiis possimus perspiciatis officia consequuntur minus, doloremque rerum adipisci voluptas doloribus architecto sit saepe omnis. Ipsam, inventore.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- imagehover close -->
+            
+        </div>
+        <!-- Each art show section  close-->
+    </main>
+    </div>
+    <!-- oneSection of art collection -->
+        
+
+    <!-- Gallery show case close -->
+    <footer id="footer">
+        <div class="ThankForVisitContainer">
+            <h2>Thank for visiting to my webpage</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero mollitia velit animi quia voluptas deleniti totam. Necessitatibus doloribus dicta labore totam? Rerum modi quibusdam, officiis neque error sapiente qui itaque?</p>
+
+        </div>
+        <div class="contactMeContainer" id="contactMeContainer">
+            <h2>Contact Me</h2>
+            <div>
+                <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
